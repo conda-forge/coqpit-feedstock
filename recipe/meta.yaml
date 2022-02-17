@@ -1,5 +1,5 @@
 {% set name = "coqpit" %}
-{% set version = "0.0.14" %}
+{% set version = "0.0.15" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/coqpit-{{ version }}.tar.gz
-  sha256: d131102ac60d2b7f773995ac284b1877dc8e21c80eb20e8d3b88b05c116f7ce6
+  sha256: 0893c5bea8e0a4e040cedeacde1e403e894ba92778810e6ac4bb68384251f7f6
 
 build:
   noarch: python
